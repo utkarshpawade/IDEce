@@ -3,7 +3,7 @@ import { generateText } from 'ai';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
 
 const google1 = createGoogleGenerativeAI({
-  apiKey: "AIzaSyAvv3pl0QLmaSBYFDA396hwN6eq6VsAE3Y",
+  apiKey: "GOOGLE_GENERATIVE_AI_API_KEY",
 });
 
 
