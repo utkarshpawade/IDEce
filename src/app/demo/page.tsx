@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-
+import * as Sentry from "@sentry/nextjs"
 export default function DemoPage(){
     const handleBlocking=async()=>{
         await fetch("/api/demo/blocking", {method:"POST"});
